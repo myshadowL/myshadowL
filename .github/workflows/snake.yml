@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: write
+    permissions: write-all
 
     steps:
       - name: Checkout
